@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON</title>
+</head>
+<body>
+    <script>
+        var person={
+            name:"Digant",
+            age:17,
+            address:{
+                country:"Nepal",
+                city:"Kathmandu",
+                Area:"Naradevi"
+            },
+            hobbies:["coding", "music", "sleep", "anime"]
+        }    
+        // person=JSON.stringify(person);//converting into JSON
+        // person=JSON.parse(person);//converting back to object
+        // console.log(person);
+
+        //OR
+        // intoJson=JSON.stringify(person);//we can name other things also
+        // backToObject=JSON.parse(intoJson);//intoJson is in JSON format so instead of converting it back to Object we are making backToObject a new Object for person
+        // //now we have intoJson in JSON format and backToObject in object format
+        // for(i of person.hobbies){
+        //     console.log(i);
+        // }
+
+        var people=[
+            {
+                name="person1",
+                age=20,
+                address:{
+                    country:"Denmark",
+                    street:"23rd st"
+                }
+            }
+        ]
+    </script>
+
+</body>
+</html>
